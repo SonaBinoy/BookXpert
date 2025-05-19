@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E774C7D12DD87E38005A9C61 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E774C7D02DD87E38005A9C61 /* FirebaseAuth */; };
+		E774C7D32DD87E38005A9C61 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E774C7D22DD87E38005A9C61 /* FirebaseCore */; };
+		E774C7DC2DD88227005A9C61 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = E774C7DB2DD88227005A9C61 /* GoogleSignIn */; };
+		E774C8042DD8B7D3005A9C61 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E774C8032DD8B7D3005A9C61 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E774C7B22DD87C74005A9C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E774C7902DD87C72005A9C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E774C7972DD87C72005A9C61;
+			remoteInfo = BookXpertProject;
+		};
+		E774C7BC2DD87C74005A9C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E774C7902DD87C72005A9C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E774C7972DD87C72005A9C61;
+			remoteInfo = BookXpertProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E774C7982DD87C72005A9C61 /* BookXpertProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookXpertProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E774C7B12DD87C74005A9C61 /* BookXpertProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookXpertProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E774C7BB2DD87C74005A9C61 /* BookXpertProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookXpertProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E774C7C32DD87C74005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E774C7972DD87C72005A9C61 /* BookXpertProject */;
+		};
+		E774C7D82DD881EC005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = E774C7B02DD87C74005A9C61 /* BookXpertProjectTests */;
+		};
+		E774C7D92DD881EC005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProjectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = E774C7BA2DD87C74005A9C61 /* BookXpertProjectUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E774C79A2DD87C72005A9C61 /* BookXpertProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E774C7C32DD87C74005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProject" target */,
+				E774C7D82DD881EC005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProjectTests" target */,
+				E774C7D92DD881EC005A9C61 /* Exceptions for "BookXpertProject" folder in "BookXpertProjectUITests" target */,
+			);
+			path = BookXpertProject;
+			sourceTree = "<group>";
+		};
+		E774C7B42DD87C74005A9C61 /* BookXpertProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookXpertProjectTests;
+			sourceTree = "<group>";
+		};
+		E774C7BE2DD87C74005A9C61 /* BookXpertProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookXpertProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E774C7952DD87C72005A9C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E774C7D32DD87E38005A9C61 /* FirebaseCore in Frameworks */,
+				E774C8042DD8B7D3005A9C61 /* Alamofire in Frameworks */,
+				E774C7D12DD87E38005A9C61 /* FirebaseAuth in Frameworks */,
+				E774C7DC2DD88227005A9C61 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7AE2DD87C74005A9C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7B82DD87C74005A9C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E774C78F2DD87C72005A9C61 = {
+			isa = PBXGroup;
+			children = (
+				E774C79A2DD87C72005A9C61 /* BookXpertProject */,
+				E774C7B42DD87C74005A9C61 /* BookXpertProjectTests */,
+				E774C7BE2DD87C74005A9C61 /* BookXpertProjectUITests */,
+				E774C7992DD87C72005A9C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E774C7992DD87C72005A9C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E774C7982DD87C72005A9C61 /* BookXpertProject.app */,
+				E774C7B12DD87C74005A9C61 /* BookXpertProjectTests.xctest */,
+				E774C7BB2DD87C74005A9C61 /* BookXpertProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E774C7972DD87C72005A9C61 /* BookXpertProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E774C7C42DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProject" */;
+			buildPhases = (
+				E774C7942DD87C72005A9C61 /* Sources */,
+				E774C7952DD87C72005A9C61 /* Frameworks */,
+				E774C7962DD87C72005A9C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E774C79A2DD87C72005A9C61 /* BookXpertProject */,
+			);
+			name = BookXpertProject;
+			packageProductDependencies = (
+				E774C7D02DD87E38005A9C61 /* FirebaseAuth */,
+				E774C7D22DD87E38005A9C61 /* FirebaseCore */,
+				E774C7DB2DD88227005A9C61 /* GoogleSignIn */,
+				E774C8032DD8B7D3005A9C61 /* Alamofire */,
+			);
+			productName = BookXpertProject;
+			productReference = E774C7982DD87C72005A9C61 /* BookXpertProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E774C7B02DD87C74005A9C61 /* BookXpertProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E774C7C92DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProjectTests" */;
+			buildPhases = (
+				E774C7AD2DD87C74005A9C61 /* Sources */,
+				E774C7AE2DD87C74005A9C61 /* Frameworks */,
+				E774C7AF2DD87C74005A9C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E774C7B32DD87C74005A9C61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E774C7B42DD87C74005A9C61 /* BookXpertProjectTests */,
+			);
+			name = BookXpertProjectTests;
+			packageProductDependencies = (
+			);
+			productName = BookXpertProjectTests;
+			productReference = E774C7B12DD87C74005A9C61 /* BookXpertProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E774C7BA2DD87C74005A9C61 /* BookXpertProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E774C7CC2DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProjectUITests" */;
+			buildPhases = (
+				E774C7B72DD87C74005A9C61 /* Sources */,
+				E774C7B82DD87C74005A9C61 /* Frameworks */,
+				E774C7B92DD87C74005A9C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E774C7BD2DD87C74005A9C61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E774C7BE2DD87C74005A9C61 /* BookXpertProjectUITests */,
+			);
+			name = BookXpertProjectUITests;
+			packageProductDependencies = (
+			);
+			productName = BookXpertProjectUITests;
+			productReference = E774C7BB2DD87C74005A9C61 /* BookXpertProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E774C7902DD87C72005A9C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E774C7972DD87C72005A9C61 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E774C7B02DD87C74005A9C61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E774C7972DD87C72005A9C61;
+					};
+					E774C7BA2DD87C74005A9C61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E774C7972DD87C72005A9C61;
+					};
+				};
+			};
+			buildConfigurationList = E774C7932DD87C72005A9C61 /* Build configuration list for PBXProject "BookXpertProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E774C78F2DD87C72005A9C61;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E774C7CF2DD87E38005A9C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E774C7DA2DD88227005A9C61 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				E774C8022DD8B7D3005A9C61 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E774C7992DD87C72005A9C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E774C7972DD87C72005A9C61 /* BookXpertProject */,
+				E774C7B02DD87C74005A9C61 /* BookXpertProjectTests */,
+				E774C7BA2DD87C74005A9C61 /* BookXpertProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E774C7962DD87C72005A9C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7AF2DD87C74005A9C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7B92DD87C74005A9C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E774C7942DD87C72005A9C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7AD2DD87C74005A9C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E774C7B72DD87C74005A9C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E774C7B32DD87C74005A9C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E774C7972DD87C72005A9C61 /* BookXpertProject */;
+			targetProxy = E774C7B22DD87C74005A9C61 /* PBXContainerItemProxy */;
+		};
+		E774C7BD2DD87C74005A9C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E774C7972DD87C72005A9C61 /* BookXpertProject */;
+			targetProxy = E774C7BC2DD87C74005A9C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E774C7C52DD87C74005A9C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookXpertProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E774C7C62DD87C74005A9C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookXpertProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E774C7C72DD87C74005A9C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E774C7C82DD87C74005A9C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E774C7CA2DD87C74005A9C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookXpertProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookXpertProject";
+			};
+			name = Debug;
+		};
+		E774C7CB2DD87C74005A9C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookXpertProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookXpertProject";
+			};
+			name = Release;
+		};
+		E774C7CD2DD87C74005A9C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookXpertProject;
+			};
+			name = Debug;
+		};
+		E774C7CE2DD87C74005A9C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH4938XBW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sona.BookXpertProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookXpertProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E774C7932DD87C72005A9C61 /* Build configuration list for PBXProject "BookXpertProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774C7C72DD87C74005A9C61 /* Debug */,
+				E774C7C82DD87C74005A9C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E774C7C42DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774C7C52DD87C74005A9C61 /* Debug */,
+				E774C7C62DD87C74005A9C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E774C7C92DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774C7CA2DD87C74005A9C61 /* Debug */,
+				E774C7CB2DD87C74005A9C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E774C7CC2DD87C74005A9C61 /* Build configuration list for PBXNativeTarget "BookXpertProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774C7CD2DD87C74005A9C61 /* Debug */,
+				E774C7CE2DD87C74005A9C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E774C7CF2DD87E38005A9C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		E774C7DA2DD88227005A9C61 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		E774C8022DD8B7D3005A9C61 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E774C7D02DD87E38005A9C61 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E774C7CF2DD87E38005A9C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E774C7D22DD87E38005A9C61 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E774C7CF2DD87E38005A9C61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E774C7DB2DD88227005A9C61 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E774C7DA2DD88227005A9C61 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		E774C8032DD8B7D3005A9C61 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E774C8022DD8B7D3005A9C61 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E774C7902DD87C72005A9C61 /* Project object */;
+}

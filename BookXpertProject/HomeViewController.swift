@@ -39,7 +39,6 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
     @IBAction func notificationSwitchChanged(_ sender: Any) {
         UserDefaults.standard.set((sender as AnyObject).isOn, forKey: "notifications_enabled")
-        print("🔄 Notifications enabled set to: \((sender as AnyObject).isOn)")
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter,
@@ -52,7 +51,6 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
     
         func loadItems() {
-            print("🔍 loadItems called")
             APIManager.shared.fetchData { models in
                 guard let models = models else { return }
                 DispatchQueue.main.async {
@@ -61,7 +59,6 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
                         CoreDataManager.shared.saveItem(id: model.id, name: model.name, data: dataString)
                     }
                     self.items = CoreDataManager.shared.fetchItems()
-                    print("Fetched from Core Data: \(self.items.map { $0.name ?? "no-name" })")
                     self.tableView.reloadData()
                 }
             }

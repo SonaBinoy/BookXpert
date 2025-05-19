@@ -18,7 +18,6 @@ class PDFViewController: UIViewController {
 
         func loadPDF() {
             guard let url = URL(string: "https://fssservices.bookxpert.co/GeneratedPDF/Companies/nadc/2024-2025/BalanceSheet.pdf") else {
-                print("❌ Invalid URL")
                 return
             }
 
@@ -32,10 +31,9 @@ class PDFViewController: UIViewController {
                    let document = PDFDocument(data: data) {
                     DispatchQueue.main.async {
                         pdfView.document = document
-                        print("✅ PDF loaded")
                     }
                 } else {
-                    print("❌ Failed to load PDF")
+                    print(" Failed to load PDF")
                 }
             }
         }

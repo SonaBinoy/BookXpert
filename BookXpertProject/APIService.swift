@@ -5,9 +5,6 @@
 //  Created by sona on 17/05/25.
 //
 
-
-
-
 import Foundation
 
 class APIManager {
@@ -16,42 +13,29 @@ class APIManager {
     
     func fetchData(completion: @escaping ([ItemModel]?) -> Void) {
         guard let url = URL(string: urlString) else {
-            print("❌ Invalid URL")
             completion(nil)
             return
         }
-
-        print("🌐 Sending API request to: \(url)")
-
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
-                print("❌ Network error: \(error.localizedDescription)")
                 completion(nil)
                 return
             }
 
             guard let httpResponse = response as? HTTPURLResponse else {
-                print("❌ Invalid HTTP response")
                 completion(nil)
                 return
             }
-
-            print("📡 HTTP status code: \(httpResponse.statusCode)")
-
             guard let data = data else {
-                print("❌ No data received")
                 completion(nil)
                 return
             }
 
             do {
                 let decoded = try JSONDecoder().decode([ItemModel].self, from: data)
-                print("✅ Decoded \(decoded.count) items from API")
                 completion(decoded)
             } catch {
-                print("❌ JSON decoding failed: \(error)")
                 if let jsonString = String(data: data, encoding: .utf8) {
-                    print("🔎 Raw JSON:\n\(jsonString)")
                 }
                 completion(nil)
             }
@@ -59,21 +43,8 @@ class APIManager {
         }.resume()
     }
 
-
-//    func fetchData(completion: @escaping ([ItemModel]?) -> Void) {
-//        guard let url = URL(string: urlString) else { return }
-//        URLSession.shared.dataTask(with: url) { data, _, error in
-//            guard let data = data, error == nil else {
-//                completion(nil)
-//                return
-//            }
-//            let decoded = try? JSONDecoder().decode([ItemModel].self, from: data)
-//            completion(decoded)
-//        }.resume()
-//    }
 }
 
-// ItemModel.swift
 
 struct ItemModel: Codable {
     let id: String

@@ -13,7 +13,6 @@ class NotificationManager {
 
     func requestPermission() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, error in
-            print("🔔 Notification permission: \(granted)")
         }
     }
 
@@ -22,7 +21,6 @@ class NotificationManager {
         let notificationsEnabled = userDefaults.bool(forKey: "notifications_enabled")
 
         guard notificationsEnabled else {
-            print("🚫 Notifications are disabled")
             return
         }
 
@@ -36,9 +34,9 @@ class NotificationManager {
 
         UNUserNotificationCenter.current().add(request) { error in
             if let error = error {
-                print("❌ Notification error: \(error.localizedDescription)")
+                print("Notification error: \(error.localizedDescription)")
             } else {
-                print("✅ Notification scheduled for deleted item")
+                print("Notification scheduled for deleted item")
             }
         }
     }
